@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+}
+#root{
+    background-color: rgb(137, 32, 179);
+    padding-top:42px;
+}

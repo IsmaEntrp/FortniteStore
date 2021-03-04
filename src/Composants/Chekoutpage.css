@@ -1,0 +1,102 @@
+.Container-checkoutpage
+{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.Checkoutpage-subtotal
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    border:1px solid black;
+    background-image: url("https://i.pinimg.com/originals/5f/31/77/5f317739c269a322f5ae651205da8bbe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}
+
+.Checkoutpage-subtotal-total
+{
+    margin-top: 200px;
+    transform: translateY(-50px);
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Checkoutpage-subtotal-button:hover
+{
+    cursor: pointer;
+    background-color: rgb(241, 229, 158);
+    transform: translateY(-50px) scale(1.1);
+    
+    transition: 450ms;
+}
+.Checkoutpage-subtotal-button
+{
+    transform: translateY(-50px);
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(29, 127, 219);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Product-container-chekout
+{
+    max-width: 1000px;
+    max-height: 500px;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgb(151, 151, 151);
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    padding-bottom: 25px;
+    align-items: center;
+    align-content: center;
+}
+.Product-img-chekout
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    align-items: center;
+    border: 3px solid black;
+    box-shadow: 0px 0px 5px   rgb(114, 114, 114);
+}
+.Product-title-chekout, .Product-price-chekout
+{
+    font-size: 20px;
+    margin:10px
+}
+.Product-enstock-chekout
+{
+    color: rgb(67, 150, 46);
+    font-weight: 900;
+    margin:10px
+}
+.Product-button-buy-chekout
+{
+    width: 250px;
+    font-size: 20px;
+    background-color: rgb(29, 127, 219);
+    color:white;
+    border-radius: 5px;
+    border: 2px solid rgb(92, 92, 92);
+}
+.Product-button-buy-chekout:hover
+{
+    cursor: pointer;
+    background-color: rgb(241, 230, 168);
+    transform: scale(1.1);
+    transition: 450ms;
+}

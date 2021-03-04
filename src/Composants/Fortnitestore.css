@@ -1,0 +1,43 @@
+
+.Fortnitestore-div-button-page
+{
+    height: 80px;
+}
+.Button-pagesuivante-Fortnite-store
+{
+    background-color: rgb(101, 232, 255);
+    color: white;
+    padding: 10px;
+    margin:10px;
+}
+
+.Button-pagesuivante-Fortnite-store:hover
+{
+    cursor: pointer;
+    background-color: rgb(63, 160, 177);
+    color: white;
+    padding: 10px;
+    margin:10px;
+}
+.Img-Fortnite
+{
+    width: 500px;
+    height: 500px;
+}
+.Fortnitestore-container
+{
+    background-attachment: scroll;
+    background-repeat: none;
+    background-size: cover;
+    background-image: url('https://fsa.zobj.net/crop.php?r=FmPr0rZ2tc71Jq8WTyzcFkoA5Eik6U2UgDkM4q7n1iDyBf28jEuMg5crmI9Pz1MAPXIo_TN3MVNsj2eMhSzm8m6ALjcLX0VFfsZaUxnM3NTfRcXRroG5Xhkd1LF3cRXYDSNyfR16mFAx7UjI');
+}
+.Fortnitestore-container-affichage
+{
+    display :flex;
+    flex-wrap: wrap;
+}
+.Fortnitestore-container-margin
+{
+    margin-left: 30vw;
+    transform: translateX(-20%);
+}

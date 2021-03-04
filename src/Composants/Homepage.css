@@ -1,0 +1,12 @@
+.Homepage-container
+{
+    background-image: url('https://images.nvidia.com/geforce-com/international/fortnite-early-access/Banner.jpg');
+    background-size:  cover ;
+    background-position: right bottom;
+    background-color: rgb(180, 29, 185);
+    background-repeat: none;
+    width: 100vw;
+    height: 100vh;
+    z-index:0;
+    overflow: hidden;
+}
